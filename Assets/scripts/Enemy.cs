@@ -10,7 +10,7 @@ public abstract class Enemy : MonoBehaviour
     void update() {
     }
 
-    protected virtual void Update()
+    protected void Update()
     {
         Move();
     }
