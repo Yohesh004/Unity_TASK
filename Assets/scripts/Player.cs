@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public float health = 100f;
-    public float speed = 5f;
+    static public float speed = 5f;
     public float Force = 7f;
 
     protected Rigidbody PlayerRb;
